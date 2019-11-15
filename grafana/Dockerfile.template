@@ -1,6 +1,7 @@
 FROM balenalib/%%BALENA_MACHINE_NAME%%
 
 COPY ./grafana.ini /usr/share/grafana/conf/custom.ini
+COPY ./provisioning /usr/src/app/provisioning
 
 COPY ./start.sh /usr/src/app/start.sh
 

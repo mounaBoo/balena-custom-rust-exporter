@@ -3,9 +3,9 @@ volumes:
   balena-data:
 services:
   exporter:
-    build: ./exporter
+    build: ./node
     ports:
-      - "32221:32221"
+      - "9100:9100"
     privileged: true
 
   prometheus:

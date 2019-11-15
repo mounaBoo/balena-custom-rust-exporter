@@ -16,9 +16,6 @@ You also need to change the IP address in ```url: http://192.168.1.120:9090 ``` 
 
 3) ``` git clone https://github.com/mounaBoo/balena-dash.git ```
 
-
-4) ``` git remote add balena g_mouna_boujrad@git.balena-cloud.com:g_mouna_boujrad/dash.git ```
-
 5) ``` git remote add balena username@git.balena-cloud.com:userbalenacloud.git ```
 
 6) ``` git push balena master ```  or ``` git push -f balena master ```
